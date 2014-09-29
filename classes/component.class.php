@@ -6,7 +6,7 @@ class Component {
 	var $height = 0;
 
 	function __construct($color, $width, $height) {
-		$this->color = $color;
+		$this->color = ($color instanceof Color) ? $color : new Color(0, 0, 0);
 		$this->width = $width;
 		$this->height = $height;
 	}
