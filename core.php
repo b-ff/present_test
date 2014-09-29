@@ -5,5 +5,8 @@ function __autoload($class_name) {
 
 }
 
-$c = new Color(100,200,300);
+$с = new Color(0, 0, 127);
+$r = new Rect($с, 120, 40);
+$r->render();
+
 ?>

@@ -6,9 +6,9 @@ class Color {
 	var $blue = 0;
 
 	function __construct($r, $g, $b) {
-		$this->red = $r;
-		$this->green = $g;
-		$this->blue = $b;
+		$this->red = (int)$r;
+		$this->green = (int)$g;
+		$this->blue = (int)$b;
 	}
 }
 
