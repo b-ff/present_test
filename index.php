@@ -1,3 +1,4 @@
+<?php include "core.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +7,8 @@
 </head>
 
 <body>
+
+	<?php print_r($c); ?>
 
 </body>
 </html>
